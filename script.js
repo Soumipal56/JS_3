@@ -87,3 +87,51 @@ console.log("Numbers greater than 8:",count);
 //     console.log("Access status denied");
 // }
 
+// 11.
+// let max_attempts = 3;
+// let correct_pw = "1234";
+// for(let i = 1; i <= max_attempts; i++){
+//  let user = prompt("Enter password");
+//  if(user === correct_pw){
+//     console.log("Stop");
+//     break;
+//  }else{
+//     console.log("Try again");
+//  }
+//  if (i === max_attempts){
+//     console.log("Access denied");
+//  }
+// }
+
+// 12. 
+
+ 
+// 13.
+for(let i = 0; i <= 50; i++){
+    if(i % 7 == 0){
+        console.log(i);
+    }
+}
+
+// 14. 
+let sum = 0;
+for(let i = 0; i <= 30; i++){
+    if(i % 2 == 1){
+        sum += i;
+    }
+}
+console.log(sum);
+
+// 15.
+
+
+// 16.
+
+
+// 17.
+
+
+// 18.
+
+
+// 19.
