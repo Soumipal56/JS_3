@@ -60,7 +60,7 @@ for(let i = 1; i<=10; i++){
 //     }
 //     else{
 
-//             console.log("not eligible");
+//         console.log("not eligible");
 //     }
 // }
 
@@ -95,16 +95,24 @@ console.log("Numbers greater than 8:",count);
 //  if(user === correct_pw){
 //     console.log("Stop");
 //     break;
-//  }else{
-//     console.log("Try again");
-//  }
-//  if (i === max_attempts){
+//  }else if (i === max_attempts){
 //     console.log("Access denied");
+//  }
+//  else{
+//     alert("Try again");
 //  }
 // }
 
 // 12. 
-
+// let count = 0;   
+// let word = "";   
+// while (word !== "stop") {         
+//   word = prompt("Enter a word");  
+//   if (word === "yes") {           
+//     count++;                      
+//   }
+// }
+// console.log("You typed 'yes' " + count + " times.");
  
 // 13.
 for(let i = 0; i <= 50; i++){
@@ -123,15 +131,63 @@ for(let i = 0; i <= 30; i++){
 console.log(sum);
 
 // 15.
-
+// let num = +prompt("Enter a number");
+// while(num){
+//     if(num % 2 == 0){
+//         console.log("stop");
+//         break;
+//     }
+//     else{
+//         num = +prompt("Enter a number");
+//     }
+// }
 
 // 16.
-
+// let start = +prompt("Enter start number:");
+// let end = +prompt("Enter end number:");
+// for(let i = start + 1; i <= end - 1; i++){
+//     console.log(i);
+// }
 
 // 17.
-
+// let count = 0;
+// for(let i = 0; i <= 20; i++){
+//     if(i % 2 == 1){
+//        count++;
+//        console.log(i);
+//     }
+//     if(count == 3){
+//         break;
+//     }
+// }
 
 // 18.
-
+// let count = 0;
+// for(let i = 1; i <= 5; i++){
+//     let user = +prompt("Enter a number");
+//     if(user >= 0){
+//         console.log("positive");
+//         count++;
+//     }
+//     else{
+//         console.log("not positive");
+//     }
+// }
+// console.log(count);
 
 // 19.
+// let balance = 1000;
+// let enough_balance = 100;
+// for(let i = 1; i <= 3; i++){
+//     let withdraw = +prompt("Enter withdrawal amount");
+//     if(withdraw <= balance){
+//         balance -= withdraw;
+//         console.log(balance);
+//     }
+//     else{
+//         console.log("Insufficient balance");
+//     }
+// }
+// console.log("Final balance: " + balance);
+
+
