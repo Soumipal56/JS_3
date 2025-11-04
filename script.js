@@ -50,18 +50,20 @@ for(let i = 1; i<=10; i++){
 // if(age === null){
 //     console.error("you pressed cancel");
 // }
-// else{
+// else {
 //  if(age.trim() === ""){
 //     console.error("write it correctly");
-//  }
-//     age = Number(age.trim());
+//  } else {
+//     age = Number(age);
 //     if(isNaN(age)){
 //         console.error("write it correctly");
 //     }
-//     else{
-
-//         console.log("not eligible");
-//     }
+//     else {
+//     if(age>0) console.log("young");
+//     else if (age >= 18) console.log("you can vote");
+//     else console.log("you can't vote");
+//    }
+//  } 
 // }
 
 // 8. 
@@ -81,7 +83,9 @@ console.log("Numbers greater than 8:",count);
 // 10.
 // let user = prompt("Give password");
 // let pw = "1234";
-// if(user == pw){
+// if (pass === null){
+//     console.error("you pressed cancel");}
+// else if(user === pw){
 //     console.log("Access status accepted");
 // }else{
 //     console.log("Access status denied");
@@ -96,12 +100,35 @@ console.log("Numbers greater than 8:",count);
 //     console.log("Stop");
 //     break;
 //  }else if (i === max_attempts){
-//     console.log("Access denied");
+//     console.log("Account locked");
 //  }
 //  else{
 //     alert("Try again");
 //  }
 // }
+
+// let attempts = 0;
+// let opened = false;
+// let pass = "1234";
+// let password = prompt("Enter password");
+// attempts++;
+
+// if(password === pass){
+//     opened = true;
+// }
+// while(password !== pass){
+//     if(attempts === 3){
+//         console.log("Account locked");
+//         break;
+//     }
+//     password = prompt("Enter password");
+//     if(password === pass){
+//         opened = true;
+//     }
+//     attempts++;
+// }
+
+// if(opened === true) console.log("account opened");
 
 // 12. 
 // let count = 0;   
